@@ -48,9 +48,9 @@ class MyApp extends StatelessWidget {
                     //container contain the person info
                     Container(
                       decoration: BoxDecoration(
-                        color: Colors.black.withValues(alpha: .3),
+                        color: Color(0xff111827).withValues(alpha: .3),
                         border: Border.all(
-                          color: Colors.white.withValues(alpha: .3),
+                          color: Colors.white.withValues(alpha: .2),
                         ),
                         borderRadius: BorderRadius.only(
                           bottomLeft: Radius.circular(16),
@@ -130,6 +130,8 @@ class MyApp extends StatelessWidget {
                             iconColor: Color(0xff4ADE80),
                             iconBackgroundColor: Color(0xff22C55E),
                           ),
+                          SizedBox(height: 24),
+
                           Divider(color: Color(0xff4B5563)),
                           SizedBox(height: 24),
                           Row(
