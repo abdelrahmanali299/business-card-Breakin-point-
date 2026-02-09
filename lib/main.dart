@@ -130,11 +130,7 @@ class MyApp extends StatelessWidget {
                             iconColor: Color(0xff4ADE80),
                             iconBackgroundColor: Color(0xff22C55E),
                           ),
-                          Divider(
-                            color: Color(0xff4B5563),
-                            indent: 24,
-                            endIndent: 24,
-                          ),
+                          Divider(color: Color(0xff4B5563)),
                           SizedBox(height: 24),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
