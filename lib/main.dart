@@ -49,7 +49,13 @@ class MyApp extends StatelessWidget {
                     Container(
                       decoration: BoxDecoration(
                         color: Colors.black.withValues(alpha: .3),
-                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(
+                          color: Colors.white.withValues(alpha: .3),
+                        ),
+                        borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(16),
+                          bottomRight: Radius.circular(16),
+                        ),
                       ),
                       padding: const EdgeInsets.symmetric(horizontal: 24.0),
                       child: Column(
