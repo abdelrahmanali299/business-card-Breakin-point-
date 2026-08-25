@@ -1,0 +1,31 @@
+1. install package (flutter_bloc)==> (pubspec.yaml)
+
+2. create states  (success , failure , loading)
+
+3. create cubit class ==> type (favourite state ) ==> ()
+
+4. create method (addfavourites) 
+
+5. provide cubit 
+
+6. trigger (call) method 
+
+7. integrate cubit
+
+
+
+{
+
+//1
+{
+    var 
+
+}
+
+//2
+{
+
+}
+
+
+}
